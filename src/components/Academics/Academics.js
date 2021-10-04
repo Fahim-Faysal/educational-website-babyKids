@@ -7,9 +7,9 @@ const Academics = () => {
 		fetch('./teacher.json').then((res) => res.json()).then((data) => setTeachers(data));
 	}, []);
 	return (
-		<div>
-			<h1 className="mx-auto text-success">Our Honorable Teachers</h1>
-			<Row xs={1} md={3} className="g-4 container m-5 ms-5">
+		<div className="container">
+			<h1 className="mx-auto text-success mb-5">Our Honorable Teachers</h1>
+			<Row xs={1} md={3} className="g-4 container">
 				{teachers.map((teacher) => (
 					<Col key={teacher.Id}>
 						<Card>

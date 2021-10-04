@@ -11,7 +11,7 @@ const Home = () => {
 		<div>
 			<img src={img} alt="" />
 			<div>
-				<h1>Our Services</h1>
+				<h1 className="text-success">Our Services</h1>
 				<Container>
 					<Row className="m-5 g-5">
 						<Col>

@@ -6,8 +6,8 @@ const Header = () => {
 	return (
 		<div className="d-flex justify-content-between align-items-center head-container container mb-3">
 			<div>
-				<h2>
-					Baby Kids <br /> <small>coaching centre</small>
+				<h2 className="text-info">
+					Baby Kids <br /> <small>Coaching Centre</small>
 				</h2>
 			</div>
 			<div className="mx-5">

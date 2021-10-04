@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
 	return (
-		<div className="container  p-4 footer-container">
+		<div className="container  p-4 footer-container mt-3">
 			<div className="d-flex align-items-center  justify-content-between text-white">
 				<div>
 					<h3>PHONE SUPPORT</h3>
