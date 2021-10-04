@@ -22,12 +22,12 @@ const Footer = () => {
 					<p>SIGN UP FOR SPECIAL OFFERS</p>
 					<input type="text" placeholder="Email" />
 					<br />
-					<Button variant="success" className="m-3">
+					<Button variant="danger" className="m-3">
 						SUBSCRIBE
 					</Button>
 				</div>
 			</div>
-			<p className="text-danger">© Copyright 2021 Fahim Faysal SIyam</p>
+			<p className="text-warning">© Copyright 2021 Fahim Faysal SIyam</p>
 		</div>
 	);
 };
