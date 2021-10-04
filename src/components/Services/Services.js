@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import Home from '../Home/Home';
 
 const Services = () => {
 	const [ courses, setCourses ] = useState([]);
