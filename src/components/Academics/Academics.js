@@ -11,7 +11,7 @@ const Academics = () => {
 			<h1 className="mx-auto text-success">Our Honorable Teachers</h1>
 			<Row xs={1} md={3} className="g-4 container m-5 ms-5">
 				{teachers.map((teacher) => (
-					<Col>
+					<Col key={teacher.Id}>
 						<Card>
 							<Card.Img variant="top" src={teacher.img} />
 							<Card.Body>

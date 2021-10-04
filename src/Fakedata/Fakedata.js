@@ -81,7 +81,7 @@ const baby = [
 		price: 300
 	},
 	{
-		id: 'dr1',
+		id: 'dr2',
 		name: 'Drama Class',
 		img: 'https://cdn5.vectorstock.com/i/1000x1000/95/79/little-kids-theater-performance-vector-21559579.jpg',
 		description:
