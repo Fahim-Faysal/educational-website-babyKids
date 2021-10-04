@@ -20,7 +20,8 @@ const Home = () => {
 								<Card.Body>
 									<Card.Title>{course.name}</Card.Title>
 									<Card.Text>{course.description}</Card.Text>
-
+									<h5>Duration : {course.course_duration}</h5>
+									<h5>Number of Class : {course.num_of_class}</h5>
 									<h3>Price : ${course.price}</h3>
 								</Card.Body>
 							</Card>
